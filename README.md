@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Live Site URL: [Netlify](https://prod-prev-fem-challenge.netlify.app/) -->
+- Live Site URL: [Netlify](https://interactive-rating-component-rp11.netlify.app/)
 
 ## My process
 
