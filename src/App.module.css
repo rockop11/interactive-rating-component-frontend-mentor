@@ -1,0 +1,22 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(240, 6%, 3%);
+}
+
+.footer {
+    position: absolute;
+    bottom: 15px;
+    color: white
+}
+
+.span {
+    color: hsl(216, 12%, 54%);
+}
+
+.link {
+    color: hsl(25, 97%, 53%);
+}

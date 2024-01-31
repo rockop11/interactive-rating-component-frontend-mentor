@@ -1,0 +1,17 @@
+.cardContainer {
+    border-radius: 20px;
+    width: 90%;
+    max-width: 335px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgb(37, 45, 55);
+    background: linear-gradient(180deg, rgba(37, 45, 55, 1) 0%, rgba(18, 20, 23, 1) 100%);
+}
+
+@media (min-width: 768px) {
+    .cardContainer {
+        max-width: 376px;
+    }
+}

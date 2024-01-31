@@ -1,0 +1,74 @@
+.iconContainer {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 17%, 20%); 
+    border-radius: 50%;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+
+.text {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+.buttonContainer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    transition: background-color 0.3s ease;
+}
+
+.scoreButton:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.selectedScore {
+    width: 40px;
+    height: 40px;
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 50%;
+}
+
+.submitButton {
+    width: 100%;
+    height: 40px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
